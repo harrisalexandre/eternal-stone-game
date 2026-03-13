@@ -1,0 +1,21 @@
+# Unity YAML files
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+
+# Text files
+*.cs text
+*.shader text
+*.cginc text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+*.fbx binary
+*.mov binary
+*.mp4 binary
