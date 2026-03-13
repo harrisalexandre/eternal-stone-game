@@ -288,7 +288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dc6fa798ce9014b4eaec7f8799333e23, type: 2}
+  - {fileID: -876546973899608171, guid: a3d800b099a06e0478fb790c5e79057a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -328,16 +328,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239990478}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.94373, y: -0, z: -24.79017}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 22, y: -0.5, z: 26.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1375737369}
   - {fileID: 1945849379}
   - {fileID: 1982350438}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &257545785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c10e56e4db8aa9478ab7e6a9de0a9ec, type: 3}
@@ -446,7 +446,7 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -496,13 +496,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0772963, y: -0.89921886, z: 0.1930092, w: 0.38493928}
-  m_LocalPosition: {x: 73, y: 48, z: 68.9}
+  m_LocalRotation: {x: -0.25277528, y: -0.3938959, z: 0.1136119, w: -0.8763807}
+  m_LocalPosition: {x: -32.92, y: 29.65, z: -29.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 23.993, y: -133.523, z: 0.601}
+  m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2045,7 +2045,7 @@ Transform:
   m_GameObject: {fileID: 1785389680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.02224, y: 1.39, z: -6.65579}
+  m_LocalPosition: {x: -11.4, y: 1.39, z: -6.65579}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2266,9 +2266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0043e3aca8a2d45a333ee42c38a8a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StoneCleaner
-  gameManager: {fileID: 0}
-  sujeira: 100
-  limpezaPorEsfregao: 5
 --- !u!65 &1964602100
 BoxCollider:
   m_ObjectHideFlags: 0
