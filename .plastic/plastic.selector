@@ -1,0 +1,4 @@
+repository "eternal-stone/eternal-stone 2026-03-13_06-16-06@4673121794739@cloud"
+  path "/"
+    br "/main"
+    co "/main"
